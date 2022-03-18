@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 9 - Forms</title>
+</head>
+<body>
+    <font face="tahoma">
+        <blockquote>
+            <fieldset style="width: 335px; background-color: gray; color: white;">
+                <h2><center>Sign Up Now!</center></h2>
+                Fields marked (*) are required
+                <form>
+                    <fieldset style="width: 335px;">
+                        <legend><h3>Your Details</h3></legend>
+                        Name* <input type="text" size="30" max="25" name="uname" title="" placeholder="Full Name" required/><br />
+                        Email* <input type="text" size="30" max="25" name="Email" title="" placeholder="ryan@provider.com" required/><br />
+                        Phone* <input type="text" size="30" max="25" name="pNum" title="" placeholder="(+00)000-000-0000" required/><br />
+                    </fieldset>
+                </form>
+
+                <form>
+                    <fieldset style="width: 335px;">
+                        <legend><h3>Delivery Address</h3></legend>
+                        Address 1* <input type="text" size="30" max="25" name="Address" title="" placeholder="House/Apt. Number and Street" required/><br />
+                        District* <input type="text" size="30" max="25" name="District" title="" placeholder="" required/><br />
+                        City*
+                            <select>
+                                <option value="Alilem">Alilem</option>
+                                <option value="Banayoyo">Banayoyo</option>
+                                <option value="Cabugao">Cabugao</option>
+                                <option value="Galimuyod">Galimuyod</option>
+                                <option value="Lidlidda">Lidlidda</option>
+                                <option value="Magsingal">Magsingal</option>
+                                <option value="Nagbukel">Nagbukel</option>
+                                <option value="Quirino">Quirino</option>
+                                <option value="Salcedo">Salcedo</option>
+                                <option value="Tagudin">Tagudin</option>
+                                <option value="Vigan">Vigan</option>
+                            </select>
+                            <br>
+                        Postal Code* <input type="text" size="30" max="25" name="pCode" title="" placeholder="" required/><br />
+                        Province*
+                            <select>
+                                <option value="Ilocos Norte">Ilocos Norte</option>
+                                <option value="Ilocos Sur">Ilocos Sur</option>
+                                <option value="La Union">La Union</option>
+                                <option value="Pangasinan">Pangasinan</option>
+                            </select>
+                    </fieldset>
+                </form>
+
+                <form>
+                    <fieldset style="width: 335px">
+                        <legend><h3>Membership Information</h3></legend>
+                        Username* <input type="text" size="30" max="25" name="uname" title="" placeholder="At least 8 alphanumeric characters" required/><br />
+                        Password* <input type="password" size="30" max="25" name="Password" title="" /><br />
+                        Magazine <input type="checkbox" name="Mag" value="f"/>PCMagazine<br />
+                        Subscriptions: 
+                            <input type="checkbox" name="Wired" value="f"/>Wired<br />
+                            <input type="checkbox" name="CompWorld" value="f"/>ComputerWorld<br />
+                            <input type="checkbox" name="I Don't Sub" value="f"/>I don't subscribe<br />
+                            <input type="checkbox" name="Other" value="f"/>Other<br />
+                    </fieldset>
+                </form>
+
+                <form>
+                    <input type="Submit" value="Submit"/>
+                </form>
+            </fieldset>
+        </blockquote>
+    </font>
+    
+</body>
+</html>
