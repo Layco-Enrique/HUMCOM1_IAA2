@@ -1,0 +1,16 @@
+.all-games{
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+}
+.all-games > h1, .games{
+    margin: 10px;
+    padding: 5px;
+}
+.games{
+    background-color: white;
+}
+.games > h2, p{
+    margin: 4px;
+    font-size: 90%;
+}
