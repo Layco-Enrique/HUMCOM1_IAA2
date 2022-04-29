@@ -1,0 +1,1 @@
+alert("Name: Enrique Layco\nCourse: BSIT\nYear: 1st Year\nSubject: HUMCOM1\nSection: IAA2");
